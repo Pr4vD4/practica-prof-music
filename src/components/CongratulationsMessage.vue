@@ -8,7 +8,7 @@ export default {
 <div class="message">
     <div class="message-box d-flex flex-column justify-content-center align-items-center">
         <div class="h1">Вы успешно справились!</div>
-        <a href="/" class="toMenu mt-5">На главную</a>
+        <button onclick="window.location.reload()" class="toMenu mt-5">На главную</button>
     </div>
 </div>
 </template>
